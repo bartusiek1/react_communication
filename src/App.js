@@ -1,13 +1,12 @@
-import logo from './logo.svg';
-import './App.module.css';
+import classes from './App.module.css';
+import AppBody from "./components/AppBody";
+import NavigationHeader from "./components/NavigationHeader";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
-
-      </header>
+    <div className={classes.App}>
+        <NavigationHeader/>
+        <AppBody/>
     </div>
   );
 }
