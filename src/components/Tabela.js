@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from "./Tabela.module.css";
+import classes from "./Tabela.modules.css";
 import {Grid} from "@mui/material";
 
 const Tabela = () => {
@@ -15,7 +15,7 @@ const Tabela = () => {
                 <Grid item xs={2}>Edycja</Grid>
             </Grid>
         </div>
-    )
+    );
 }
 
 export default Tabela;
